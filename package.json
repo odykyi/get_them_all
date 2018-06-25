@@ -1,0 +1,34 @@
+{
+  "name": "get_them_all",
+  "version": "1.0.0",
+  "description": "nodejs node js multi fetch request multiFetchLocalRequest json stream (get_them_all)",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odykyi/get_them_all.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odykyi/get_them_all/issues"
+  },
+  "homepage": "https://github.com/odykyi/get_them_all#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "got": "^8.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "jest": "^23.1.0"
+  },
+  "eslintIgnore": ["/coverage"]
+}

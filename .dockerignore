@@ -1,0 +1,15 @@
+testdata
+corpus
+Dockerfile
+.dockerignore
+*.md
+.*
+!.netrc
+*.template
+.DS_Store
+.git
+.idea
+.vscode
+coverage
+creds
+node_modules
